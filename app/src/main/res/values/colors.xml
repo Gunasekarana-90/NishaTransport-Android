@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Brand Colors -->
+    <color name="brand_primary">#2962FF</color>
+    <color name="brand_primary_dark">#0039CB</color>
+    <color name="brand_primary_light">#768FFF</color>
+    <color name="brand_secondary">#FF6D00</color>
+
+    <!-- Material 3 base -->
+    <color name="md_theme_primary">#2962FF</color>
+    <color name="md_theme_on_primary">#FFFFFF</color>
+    <color name="md_theme_primary_container">#DEE3FF</color>
+    <color name="md_theme_on_primary_container">#00105C</color>
+    <color name="md_theme_surface">#FAFBFF</color>
+    <color name="md_theme_on_surface">#191C20</color>
+    <color name="md_theme_surface_variant">#E2E2EC</color>
+    <color name="md_theme_on_surface_variant">#45464F</color>
+    <color name="md_theme_background">#F5F6FF</color>
+    <color name="md_theme_on_background">#191C20</color>
+
+    <!-- Semantic Colors -->
+    <color name="profit_positive">#2E7D32</color>
+    <color name="profit_negative">#C62828</color>
+    <color name="revenue_color">#1565C0</color>
+    <color name="expense_color">#B71C1C</color>
+
+    <!-- Card Colors -->
+    <color name="card_today_revenue">#E3F2FD</color>
+    <color name="card_today_profit">#E8F5E9</color>
+    <color name="card_month_revenue">#FFF3E0</color>
+    <color name="card_month_profit">#F3E5F5</color>
+    <color name="card_year_profit">#E1F5FE</color>
+    <color name="card_total_loads">#FCE4EC</color>
+
+    <!-- Icon Colors for cards -->
+    <color name="icon_revenue">#1565C0</color>
+    <color name="icon_profit">#2E7D32</color>
+    <color name="icon_year">#0277BD</color>
+    <color name="icon_loads">#AD1457</color>
+
+    <!-- Chart Colors -->
+    <color name="chart_revenue">#2962FF</color>
+    <color name="chart_expense">#D32F2F</color>
+    <color name="chart_profit">#2E7D32</color>
+
+    <!-- UI Colors -->
+    <color name="divider">#E0E0E0</color>
+    <color name="text_primary">#212121</color>
+    <color name="text_secondary">#757575</color>
+    <color name="text_hint">#BDBDBD</color>
+    <color name="background_light">#F5F5F5</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+
+    <!-- Status Bar -->
+    <color name="status_bar">#0039CB</color>
+
+    <!-- Transparent -->
+    <color name="transparent">#00000000</color>
+</resources>

@@ -1,0 +1,67 @@
+com.nishatransport.app-jetified-play-services-basement-18.2.0-0 C:\Users\gunaa\.gradle\caches\8.13\transforms\009f851e38ead75737437127adf73d9b\transformed\jetified-play-services-basement-18.2.0\res
+com.nishatransport.app-coordinatorlayout-1.1.0-1 C:\Users\gunaa\.gradle\caches\8.13\transforms\08032f32204918ec6703199a40c13117\transformed\coordinatorlayout-1.1.0\res
+com.nishatransport.app-jetified-play-services-auth-21.0.0-2 C:\Users\gunaa\.gradle\caches\8.13\transforms\0c618e33d0551e5b83a3133fb5cb22d6\transformed\jetified-play-services-auth-21.0.0\res
+com.nishatransport.app-recyclerview-1.3.2-3 C:\Users\gunaa\.gradle\caches\8.13\transforms\0e5dc8f36f00e3424841ca08489e6fe2\transformed\recyclerview-1.3.2\res
+com.nishatransport.app-lifecycle-runtime-2.7.0-4 C:\Users\gunaa\.gradle\caches\8.13\transforms\126c39f3debc0733829084404b11ed09\transformed\lifecycle-runtime-2.7.0\res
+com.nishatransport.app-navigation-runtime-2.7.6-5 C:\Users\gunaa\.gradle\caches\8.13\transforms\135b0c628c1f7e93347c24a744ad7d9b\transformed\navigation-runtime-2.7.6\res
+com.nishatransport.app-appcompat-1.6.1-6 C:\Users\gunaa\.gradle\caches\8.13\transforms\1701ed4d4d38f31e5925349b33f43ac3\transformed\appcompat-1.6.1\res
+com.nishatransport.app-jetified-core-ktx-1.12.0-7 C:\Users\gunaa\.gradle\caches\8.13\transforms\17d3fb455d4e25896e465b0fcb205370\transformed\jetified-core-ktx-1.12.0\res
+com.nishatransport.app-jetified-lifecycle-livedata-ktx-2.7.0-8 C:\Users\gunaa\.gradle\caches\8.13\transforms\1876a7847de1070850b5823d8af00914\transformed\jetified-lifecycle-livedata-ktx-2.7.0\res
+com.nishatransport.app-navigation-fragment-ktx-2.7.6-9 C:\Users\gunaa\.gradle\caches\8.13\transforms\1aeb73b877975363c482c42131715dac\transformed\navigation-fragment-ktx-2.7.6\res
+com.nishatransport.app-jetified-security-crypto-1.1.0-alpha06-10 C:\Users\gunaa\.gradle\caches\8.13\transforms\1d6457c75f4e1770e7fe26b3c8710445\transformed\jetified-security-crypto-1.1.0-alpha06\res
+com.nishatransport.app-sqlite-framework-2.4.0-11 C:\Users\gunaa\.gradle\caches\8.13\transforms\23aa09b7864b3654a4f64ef7e778748c\transformed\sqlite-framework-2.4.0\res
+com.nishatransport.app-navigation-runtime-ktx-2.7.6-12 C:\Users\gunaa\.gradle\caches\8.13\transforms\2563a8aab08f77184936cb94fa22e83e\transformed\navigation-runtime-ktx-2.7.6\res
+com.nishatransport.app-room-runtime-2.6.1-13 C:\Users\gunaa\.gradle\caches\8.13\transforms\2878b81a418584156277495b4361b4d4\transformed\room-runtime-2.6.1\res
+com.nishatransport.app-jetified-lifecycle-livedata-core-ktx-2.7.0-14 C:\Users\gunaa\.gradle\caches\8.13\transforms\2e77dff911951d20a33938e033bf0c46\transformed\jetified-lifecycle-livedata-core-ktx-2.7.0\res
+com.nishatransport.app-navigation-common-2.7.6-15 C:\Users\gunaa\.gradle\caches\8.13\transforms\3769c96a157b6b72a72f8ac0b3a0b227\transformed\navigation-common-2.7.6\res
+com.nishatransport.app-work-runtime-ktx-2.9.0-16 C:\Users\gunaa\.gradle\caches\8.13\transforms\37d3d43839c97f243a6756043eac6496\transformed\work-runtime-ktx-2.9.0\res
+com.nishatransport.app-jetified-fragment-ktx-1.6.2-17 C:\Users\gunaa\.gradle\caches\8.13\transforms\3a326948db89adf2b9b1222ce651aa61\transformed\jetified-fragment-ktx-1.6.2\res
+com.nishatransport.app-constraintlayout-2.1.4-18 C:\Users\gunaa\.gradle\caches\8.13\transforms\4097d20aa8fd9064c9635f14b03b906b\transformed\constraintlayout-2.1.4\res
+com.nishatransport.app-jetified-startup-runtime-1.1.1-19 C:\Users\gunaa\.gradle\caches\8.13\transforms\4889f3ccdd4fc9554c01621ef73a7478\transformed\jetified-startup-runtime-1.1.1\res
+com.nishatransport.app-jetified-lifecycle-viewmodel-savedstate-2.7.0-20 C:\Users\gunaa\.gradle\caches\8.13\transforms\57878cebdc6f5328d089c13c0664754e\transformed\jetified-lifecycle-viewmodel-savedstate-2.7.0\res
+com.nishatransport.app-jetified-lifecycle-process-2.7.0-21 C:\Users\gunaa\.gradle\caches\8.13\transforms\61f703c3812b728ae5b36cd10e68ce8b\transformed\jetified-lifecycle-process-2.7.0\res
+com.nishatransport.app-jetified-emoji2-views-helper-1.2.0-22 C:\Users\gunaa\.gradle\caches\8.13\transforms\68008da7daf2d9a5cc7e3653ad60875c\transformed\jetified-emoji2-views-helper-1.2.0\res
+com.nishatransport.app-jetified-emoji2-1.2.0-23 C:\Users\gunaa\.gradle\caches\8.13\transforms\6b2593b8d07455d64ec51c8920a3b3bd\transformed\jetified-emoji2-1.2.0\res
+com.nishatransport.app-material-1.11.0-24 C:\Users\gunaa\.gradle\caches\8.13\transforms\6f16fb751636240b8f97babeaae12b19\transformed\material-1.11.0\res
+com.nishatransport.app-jetified-profileinstaller-1.3.0-25 C:\Users\gunaa\.gradle\caches\8.13\transforms\723a64e7eb168a7ef90bf96166ff703a\transformed\jetified-profileinstaller-1.3.0\res
+com.nishatransport.app-jetified-savedstate-ktx-1.2.1-26 C:\Users\gunaa\.gradle\caches\8.13\transforms\742a142e23c5a9d4eda2f7d97f27ac05\transformed\jetified-savedstate-ktx-1.2.1\res
+com.nishatransport.app-sqlite-2.4.0-27 C:\Users\gunaa\.gradle\caches\8.13\transforms\7b94b968e031684fc25ed25c496c22d9\transformed\sqlite-2.4.0\res
+com.nishatransport.app-work-runtime-2.9.0-28 C:\Users\gunaa\.gradle\caches\8.13\transforms\7f769da05f9a5f6fba82e7aa83723802\transformed\work-runtime-2.9.0\res
+com.nishatransport.app-jetified-activity-ktx-1.8.2-29 C:\Users\gunaa\.gradle\caches\8.13\transforms\8135f9152ab9e7fb68db42a2e3dbd4e9\transformed\jetified-activity-ktx-1.8.2\res
+com.nishatransport.app-jetified-window-1.0.0-30 C:\Users\gunaa\.gradle\caches\8.13\transforms\81413fb5a344118804a94ecb5f055ddf\transformed\jetified-window-1.0.0\res
+com.nishatransport.app-jetified-datastore-preferences-1.0.0-31 C:\Users\gunaa\.gradle\caches\8.13\transforms\82c057c01645c71cdc8adb907870883c\transformed\jetified-datastore-preferences-1.0.0\res
+com.nishatransport.app-lifecycle-viewmodel-2.7.0-32 C:\Users\gunaa\.gradle\caches\8.13\transforms\8666f5b04513a59671edaee18e74de1d\transformed\lifecycle-viewmodel-2.7.0\res
+com.nishatransport.app-navigation-fragment-2.7.6-33 C:\Users\gunaa\.gradle\caches\8.13\transforms\8685abf45286b17f7908622727cad83b\transformed\navigation-fragment-2.7.6\res
+com.nishatransport.app-fragment-1.6.2-34 C:\Users\gunaa\.gradle\caches\8.13\transforms\8b8718da426ef2e3e4dcfa264083c5a2\transformed\fragment-1.6.2\res
+com.nishatransport.app-lifecycle-livedata-2.7.0-35 C:\Users\gunaa\.gradle\caches\8.13\transforms\92bf587d99e9b49bd00a951cbc37694b\transformed\lifecycle-livedata-2.7.0\res
+com.nishatransport.app-jetified-lifecycle-runtime-ktx-2.7.0-36 C:\Users\gunaa\.gradle\caches\8.13\transforms\93c47050415e7a256f70bca04021e4ea\transformed\jetified-lifecycle-runtime-ktx-2.7.0\res
+com.nishatransport.app-core-runtime-2.2.0-37 C:\Users\gunaa\.gradle\caches\8.13\transforms\9987cfde8fe00245a8c4495eb64499a3\transformed\core-runtime-2.2.0\res
+com.nishatransport.app-jetified-lifecycle-viewmodel-ktx-2.7.0-38 C:\Users\gunaa\.gradle\caches\8.13\transforms\a0400db16412bf17384e122c7654038a\transformed\jetified-lifecycle-viewmodel-ktx-2.7.0\res
+com.nishatransport.app-jetified-lifecycle-service-2.7.0-39 C:\Users\gunaa\.gradle\caches\8.13\transforms\a3a04b936119215b328622b7c48110a2\transformed\jetified-lifecycle-service-2.7.0\res
+com.nishatransport.app-navigation-common-ktx-2.7.6-40 C:\Users\gunaa\.gradle\caches\8.13\transforms\a9337a2cb23575a6e336fdd453a9e07c\transformed\navigation-common-ktx-2.7.6\res
+com.nishatransport.app-jetified-annotation-experimental-1.3.0-41 C:\Users\gunaa\.gradle\caches\8.13\transforms\b1dc4454676f46871438eb10db2d4b67\transformed\jetified-annotation-experimental-1.3.0\res
+com.nishatransport.app-jetified-room-ktx-2.6.1-42 C:\Users\gunaa\.gradle\caches\8.13\transforms\b1e991cfc1bdcd96a72a554d81d442c0\transformed\jetified-room-ktx-2.6.1\res
+com.nishatransport.app-transition-1.4.1-43 C:\Users\gunaa\.gradle\caches\8.13\transforms\b7eda90746f772347753e8a3db28302a\transformed\transition-1.4.1\res
+com.nishatransport.app-core-1.12.0-44 C:\Users\gunaa\.gradle\caches\8.13\transforms\bb8276727144926654648e33693ef2e7\transformed\core-1.12.0\res
+com.nishatransport.app-drawerlayout-1.1.1-45 C:\Users\gunaa\.gradle\caches\8.13\transforms\bdc90c348f263b0c20051ca82194fbae\transformed\drawerlayout-1.1.1\res
+com.nishatransport.app-jetified-activity-1.8.2-46 C:\Users\gunaa\.gradle\caches\8.13\transforms\c1d64f59e549ce6fbc996ffbc5c02594\transformed\jetified-activity-1.8.2\res
+com.nishatransport.app-navigation-ui-2.7.6-47 C:\Users\gunaa\.gradle\caches\8.13\transforms\c44bceda5cee822b9427b1efae9f3148\transformed\navigation-ui-2.7.6\res
+com.nishatransport.app-navigation-ui-ktx-2.7.6-48 C:\Users\gunaa\.gradle\caches\8.13\transforms\cae0dc1fb8d014113ba43544e3631ea8\transformed\navigation-ui-ktx-2.7.6\res
+com.nishatransport.app-jetified-customview-poolingcontainer-1.0.0-49 C:\Users\gunaa\.gradle\caches\8.13\transforms\ce1842f8b96e988135adcc083975d5a6\transformed\jetified-customview-poolingcontainer-1.0.0\res
+com.nishatransport.app-lifecycle-livedata-core-2.7.0-50 C:\Users\gunaa\.gradle\caches\8.13\transforms\d708809a66f9373dd3ff680c57d5b5c1\transformed\lifecycle-livedata-core-2.7.0\res
+com.nishatransport.app-swiperefreshlayout-1.1.0-51 C:\Users\gunaa\.gradle\caches\8.13\transforms\da0367b12228d3a3b3b83b708ae900b2\transformed\swiperefreshlayout-1.1.0\res
+com.nishatransport.app-jetified-appcompat-resources-1.6.1-52 C:\Users\gunaa\.gradle\caches\8.13\transforms\e1b939b165b048610ee5ab9f2ad6fcea\transformed\jetified-appcompat-resources-1.6.1\res
+com.nishatransport.app-cardview-1.0.0-53 C:\Users\gunaa\.gradle\caches\8.13\transforms\f0190475fc7fa0cf3c98e1ae09f28d03\transformed\cardview-1.0.0\res
+com.nishatransport.app-jetified-savedstate-1.2.1-54 C:\Users\gunaa\.gradle\caches\8.13\transforms\f572a6ec86ac13fa0f4df4077412bc08\transformed\jetified-savedstate-1.2.1\res
+com.nishatransport.app-jetified-play-services-base-18.0.1-55 C:\Users\gunaa\.gradle\caches\8.13\transforms\f62a863b6b87ab04fbed0e404e8cd9bb\transformed\jetified-play-services-base-18.0.1\res
+com.nishatransport.app-jetified-datastore-1.0.0-56 C:\Users\gunaa\.gradle\caches\8.13\transforms\f718bbb37f4f40179cd6b75929558b79\transformed\jetified-datastore-1.0.0\res
+com.nishatransport.app-jetified-viewpager2-1.1.0-beta02-57 C:\Users\gunaa\.gradle\caches\8.13\transforms\f94e9e84e16ca06b73f912b291e30a5a\transformed\jetified-viewpager2-1.1.0-beta02\res
+com.nishatransport.app-slidingpanelayout-1.2.0-58 C:\Users\gunaa\.gradle\caches\8.13\transforms\fd5eec59927e204012f7512617218d55\transformed\slidingpanelayout-1.2.0\res
+com.nishatransport.app-pngs-59 C:\Users\gunaa\OneDrive\New folder\OneDrive\NishaTransport\app\build\generated\res\pngs\release
+com.nishatransport.app-resValues-60 C:\Users\gunaa\OneDrive\New folder\OneDrive\NishaTransport\app\build\generated\res\resValues\release
+com.nishatransport.app-updated_navigation_xml-61 C:\Users\gunaa\OneDrive\New folder\OneDrive\NishaTransport\app\build\generated\updated_navigation_xml\release
+com.nishatransport.app-packageReleaseResources-62 C:\Users\gunaa\OneDrive\New folder\OneDrive\NishaTransport\app\build\intermediates\incremental\release\packageReleaseResources\merged.dir
+com.nishatransport.app-packageReleaseResources-63 C:\Users\gunaa\OneDrive\New folder\OneDrive\NishaTransport\app\build\intermediates\incremental\release\packageReleaseResources\stripped.dir
+com.nishatransport.app-release-64 C:\Users\gunaa\OneDrive\New folder\OneDrive\NishaTransport\app\build\intermediates\merged_res\release\mergeReleaseResources
+com.nishatransport.app-main-65 C:\Users\gunaa\OneDrive\New folder\OneDrive\NishaTransport\app\src\main\res
+com.nishatransport.app-release-66 C:\Users\gunaa\OneDrive\New folder\OneDrive\NishaTransport\app\src\release\res

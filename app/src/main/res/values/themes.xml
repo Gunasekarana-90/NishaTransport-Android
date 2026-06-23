@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Light Theme -->
+    <style name="Theme.NishaTransport" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">@color/brand_primary</item>
+        <item name="colorPrimaryDark">@color/brand_primary_dark</item>
+        <item name="colorAccent">@color/brand_secondary</item>
+        <item name="android:colorBackground">@color/md_theme_background</item>
+        <item name="android:statusBarColor">@color/brand_primary_dark</item>
+        <item name="android:windowLightStatusBar">false</item>
+
+        <!-- Typography -->
+        <item name="android:fontFamily">sans-serif</item>
+
+        <!-- Toolbar -->
+        <item name="toolbarStyle">@style/Widget_NishaTransport_Toolbar</item>
+
+        <!-- Bottom Navigation -->
+        <item name="bottomNavigationStyle">@style/Widget_NishaTransport_BottomNavigation</item>
+
+        <!-- FAB -->
+        <item name="floatingActionButtonStyle">@style/Widget_NishaTransport_FAB</item>
+
+        <!-- Text Input -->
+        <item name="textInputStyle">@style/Widget_NishaTransport_TextInputLayout</item>
+    </style>
+
+    <!-- Dark Theme -->
+    <style name="Theme.NishaTransport.Dark" parent="Theme.Material3.Dark.NoActionBar">
+        <item name="colorPrimary">@color/brand_primary_light</item>
+        <item name="colorPrimaryDark">@color/brand_primary</item>
+        <item name="colorAccent">@color/brand_secondary</item>
+        <item name="android:statusBarColor">@color/brand_primary</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+
+    <!-- Toolbar -->
+    <style name="Widget_NishaTransport_Toolbar" parent="Widget.Material3.Toolbar">
+        <item name="android:background">@color/brand_primary</item>
+        <item name="titleTextColor">@color/white</item>
+        <item name="subtitleTextColor">@color/white</item>
+        <item name="navigationIconTint">@color/white</item>
+    </style>
+
+    <!-- Bottom Navigation -->
+    <style name="Widget_NishaTransport_BottomNavigation" parent="Widget.Material3.BottomNavigationView">
+        <item name="itemTextColor">@color/bottom_nav_color</item>
+        <item name="itemIconTint">@color/bottom_nav_color</item>
+    </style>
+
+    <!-- FAB -->
+    <style name="Widget_NishaTransport_FAB" parent="Widget.Material3.FloatingActionButton.Primary">
+        <item name="backgroundTint">@color/brand_primary</item>
+        <item name="tint">@color/white</item>
+    </style>
+
+    <!-- TextInputLayout -->
+    <style name="Widget_NishaTransport_TextInputLayout" parent="Widget.Material3.TextInputLayout.OutlinedBox">
+        <item name="boxStrokeColor">@color/brand_primary</item>
+        <item name="hintTextColor">@color/brand_primary</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <!-- Summary Card Style -->
+    <style name="Widget_NishaTransport_SummaryCard" parent="Widget.Material3.CardView.Elevated">
+        <item name="cardElevation">4dp</item>
+        <item name="cardCornerRadius">12dp</item>
+        <item name="android:layout_margin">6dp</item>
+        <item name="contentPadding">16dp</item>
+    </style>
+
+    <!-- Large Button Style -->
+    <style name="Widget_NishaTransport_Button_Large" parent="Widget.Material3.Button">
+        <item name="android:textSize">16sp</item>
+        <item name="android:paddingTop">14dp</item>
+        <item name="android:paddingBottom">14dp</item>
+        <item name="android:minHeight">52dp</item>
+        <item name="backgroundTint">@color/brand_primary</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="cornerRadius">10dp</item>
+    </style>
+
+    <!-- Section Header -->
+    <style name="Widget_NishaTransport_SectionHeader">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:layout_marginBottom">8dp</item>
+    </style>
+
+</resources>

@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/md_theme_background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Header -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/brand_primary"
+            android:padding="16dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="📊 Analytics"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:layout_marginBottom="12dp" />
+
+            <!-- Month/Year Selectors -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical">
+
+                <Spinner
+                    android:id="@+id/spinnerMonth"
+                    android:layout_width="0dp"
+                    android:layout_height="42dp"
+                    android:layout_weight="1"
+                    android:background="@color/white"
+                    android:paddingStart="8dp"
+                    android:layout_marginEnd="8dp" />
+
+                <Spinner
+                    android:id="@+id/spinnerYear"
+                    android:layout_width="wrap_content"
+                    android:layout_height="42dp"
+                    android:background="@color/white"
+                    android:paddingStart="8dp"
+                    android:layout_marginEnd="8dp" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btnApplyFilter"
+                    android:layout_width="wrap_content"
+                    android:layout_height="42dp"
+                    android:text="Apply"
+                    android:textSize="13sp"
+                    app:backgroundTint="@color/brand_secondary"
+                    app:cornerRadius="8dp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            android:layout_width="match_parent"
+            android:layout_height="4dp"
+            android:visibility="gone"
+            style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+            android:indeterminate="true"
+            android:indeterminateTint="@color/brand_primary" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="12dp">
+
+            <!-- MONTHLY SUMMARY -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="📅 Monthly Summary"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="@color/text_primary"
+                android:layout_marginBottom="8dp" />
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="3dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="16dp">
+
+                    <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:orientation="vertical" android:gravity="center">
+                        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Revenue" android:textSize="12sp" android:textColor="@color/text_secondary" />
+                        <TextView android:id="@+id/tvMonthRevenue" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="₹0" android:textSize="16sp" android:textStyle="bold" android:textColor="@color/revenue_color" />
+                    </LinearLayout>
+
+                    <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:orientation="vertical" android:gravity="center">
+                        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Expense" android:textSize="12sp" android:textColor="@color/text_secondary" />
+                        <TextView android:id="@+id/tvMonthExpense" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="₹0" android:textSize="16sp" android:textStyle="bold" android:textColor="@color/expense_color" />
+                    </LinearLayout>
+
+                    <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:orientation="vertical" android:gravity="center">
+                        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Profit" android:textSize="12sp" android:textColor="@color/text_secondary" />
+                        <TextView android:id="@+id/tvMonthProfit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="₹0" android:textSize="16sp" android:textStyle="bold" android:textColor="@color/profit_positive" />
+                    </LinearLayout>
+
+                    <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:orientation="vertical" android:gravity="center">
+                        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Loads" android:textSize="12sp" android:textColor="@color/text_secondary" />
+                        <TextView android:id="@+id/tvMonthLoads" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0" android:textSize="16sp" android:textStyle="bold" android:textColor="@color/brand_primary" />
+                    </LinearLayout>
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <!-- YEARLY SUMMARY -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="🗓 Yearly Summary"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="@color/text_primary"
+                android:layout_marginBottom="8dp" />
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="3dp"
+                app:cardBackgroundColor="#F3E5F5">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="16dp">
+
+                    <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:orientation="vertical" android:gravity="center">
+                        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Revenue" android:textSize="12sp" android:textColor="@color/text_secondary" />
+                        <TextView android:id="@+id/tvYearRevenue" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="₹0" android:textSize="16sp" android:textStyle="bold" android:textColor="@color/revenue_color" />
+                    </LinearLayout>
+
+                    <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:orientation="vertical" android:gravity="center">
+                        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Expense" android:textSize="12sp" android:textColor="@color/text_secondary" />
+                        <TextView android:id="@+id/tvYearExpense" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="₹0" android:textSize="16sp" android:textStyle="bold" android:textColor="@color/expense_color" />
+                    </LinearLayout>
+
+                    <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:orientation="vertical" android:gravity="center">
+                        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Profit" android:textSize="12sp" android:textColor="@color/text_secondary" />
+                        <TextView android:id="@+id/tvYearProfit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="₹0" android:textSize="16sp" android:textStyle="bold" android:textColor="@color/profit_positive" />
+                    </LinearLayout>
+
+                    <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:orientation="vertical" android:gravity="center">
+                        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Loads" android:textSize="12sp" android:textColor="@color/text_secondary" />
+                        <TextView android:id="@+id/tvYearLoads" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0" android:textSize="16sp" android:textStyle="bold" android:textColor="@color/brand_primary" />
+                    </LinearLayout>
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <!-- REVENUE CHART -->
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="📈 Revenue Trend (Last 12 Months)" android:textSize="15sp" android:textStyle="bold" android:textColor="@color/text_primary" android:layout_marginBottom="6dp" />
+            <com.google.android.material.card.MaterialCardView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="12dp" app:cardCornerRadius="10dp" app:cardElevation="2dp">
+                <com.github.mikephil.charting.charts.LineChart
+                    android:id="@+id/chartRevenue"
+                    android:layout_width="match_parent"
+                    android:layout_height="220dp"
+                    android:padding="8dp" />
+            </com.google.android.material.card.MaterialCardView>
+
+            <!-- EXPENSE CHART -->
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="📉 Expense Trend (Last 12 Months)" android:textSize="15sp" android:textStyle="bold" android:textColor="@color/text_primary" android:layout_marginBottom="6dp" />
+            <com.google.android.material.card.MaterialCardView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="12dp" app:cardCornerRadius="10dp" app:cardElevation="2dp">
+                <com.github.mikephil.charting.charts.LineChart
+                    android:id="@+id/chartExpense"
+                    android:layout_width="match_parent"
+                    android:layout_height="220dp"
+                    android:padding="8dp" />
+            </com.google.android.material.card.MaterialCardView>
+
+            <!-- PROFIT CHART -->
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="💹 Profit Trend (Last 12 Months)" android:textSize="15sp" android:textStyle="bold" android:textColor="@color/text_primary" android:layout_marginBottom="6dp" />
+            <com.google.android.material.card.MaterialCardView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="12dp" app:cardCornerRadius="10dp" app:cardElevation="2dp">
+                <com.github.mikephil.charting.charts.LineChart
+                    android:id="@+id/chartProfit"
+                    android:layout_width="match_parent"
+                    android:layout_height="220dp"
+                    android:padding="8dp" />
+            </com.google.android.material.card.MaterialCardView>
+
+            <!-- BAR COMPARISON CHART -->
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="📊 Monthly Comparison" android:textSize="15sp" android:textStyle="bold" android:textColor="@color/text_primary" android:layout_marginBottom="6dp" />
+            <com.google.android.material.card.MaterialCardView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="16dp" app:cardCornerRadius="10dp" app:cardElevation="2dp">
+                <com.github.mikephil.charting.charts.BarChart
+                    android:id="@+id/chartComparison"
+                    android:layout_width="match_parent"
+                    android:layout_height="260dp"
+                    android:padding="8dp" />
+            </com.google.android.material.card.MaterialCardView>
+
+        </LinearLayout>
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

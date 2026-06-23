@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Spacing -->
+    <dimen name="spacing_xs">4dp</dimen>
+    <dimen name="spacing_sm">8dp</dimen>
+    <dimen name="spacing_md">16dp</dimen>
+    <dimen name="spacing_lg">24dp</dimen>
+    <dimen name="spacing_xl">32dp</dimen>
+
+    <!-- Card -->
+    <dimen name="card_corner_radius">12dp</dimen>
+    <dimen name="card_elevation">4dp</dimen>
+    <dimen name="card_padding">16dp</dimen>
+
+    <!-- Text Sizes - Large for middle-aged users -->
+    <dimen name="text_xs">11sp</dimen>
+    <dimen name="text_sm">13sp</dimen>
+    <dimen name="text_md">15sp</dimen>
+    <dimen name="text_body">16sp</dimen>
+    <dimen name="text_lg">18sp</dimen>
+    <dimen name="text_xl">20sp</dimen>
+    <dimen name="text_2xl">24sp</dimen>
+    <dimen name="text_3xl">28sp</dimen>
+    <dimen name="text_amount">22sp</dimen>
+    <dimen name="text_label">13sp</dimen>
+
+    <!-- Button -->
+    <dimen name="button_height">52dp</dimen>
+    <dimen name="button_text">16sp</dimen>
+    <dimen name="button_corner">10dp</dimen>
+
+    <!-- Input -->
+    <dimen name="input_text_size">16sp</dimen>
+    <dimen name="input_hint_size">14sp</dimen>
+
+    <!-- Icon -->
+    <dimen name="icon_sm">20dp</dimen>
+    <dimen name="icon_md">24dp</dimen>
+    <dimen name="icon_lg">32dp</dimen>
+    <dimen name="icon_xl">40dp</dimen>
+
+    <!-- Chart -->
+    <dimen name="chart_height">220dp</dimen>
+
+    <!-- Bottom Nav -->
+    <dimen name="bottom_nav_height">60dp</dimen>
+
+    <!-- Summary cards -->
+    <dimen name="summary_card_min_height">100dp</dimen>
+</resources>

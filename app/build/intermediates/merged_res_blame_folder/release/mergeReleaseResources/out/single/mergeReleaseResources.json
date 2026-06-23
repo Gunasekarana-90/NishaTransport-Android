@@ -1,0 +1,106 @@
+[
+    {
+        "merged": "com.nishatransport.app-release-63:/drawable_ic_truck.xml.flat",
+        "source": "com.nishatransport.app-main-64:/drawable/ic_truck.xml"
+    },
+    {
+        "merged": "com.nishatransport.app-release-63:/drawable_ic_reports.xml.flat",
+        "source": "com.nishatransport.app-main-64:/drawable/ic_reports.xml"
+    },
+    {
+        "merged": "com.nishatransport.app-release-63:/layout_row_expense_item.xml.flat",
+        "source": "com.nishatransport.app-main-64:/layout/row_expense_item.xml"
+    },
+    {
+        "merged": "com.nishatransport.app-release-63:/drawable_ic_loads.xml.flat",
+        "source": "com.nishatransport.app-main-64:/drawable/ic_loads.xml"
+    },
+    {
+        "merged": "com.nishatransport.app-release-63:/layout_fragment_reports.xml.flat",
+        "source": "com.nishatransport.app-main-64:/layout/fragment_reports.xml"
+    },
+    {
+        "merged": "com.nishatransport.app-release-63:/xml_file_paths.xml.flat",
+        "source": "com.nishatransport.app-main-64:/xml/file_paths.xml"
+    },
+    {
+        "merged": "com.nishatransport.app-release-63:/drawable_ic_delete.xml.flat",
+        "source": "com.nishatransport.app-main-64:/drawable/ic_delete.xml"
+    },
+    {
+        "merged": "com.nishatransport.app-release-63:/layout_activity_main.xml.flat",
+        "source": "com.nishatransport.app-main-64:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.nishatransport.app-release-63:/layout_item_recent_load.xml.flat",
+        "source": "com.nishatransport.app-main-64:/layout/item_recent_load.xml"
+    },
+    {
+        "merged": "com.nishatransport.app-release-63:/layout_fragment_analytics.xml.flat",
+        "source": "com.nishatransport.app-main-64:/layout/fragment_analytics.xml"
+    },
+    {
+        "merged": "com.nishatransport.app-release-63:/layout_activity_load_detail.xml.flat",
+        "source": "com.nishatransport.app-main-64:/layout/activity_load_detail.xml"
+    },
+    {
+        "merged": "com.nishatransport.app-release-63:/layout_fragment_load_history.xml.flat",
+        "source": "com.nishatransport.app-main-64:/layout/fragment_load_history.xml"
+    },
+    {
+        "merged": "com.nishatransport.app-release-63:/drawable_ic_edit.xml.flat",
+        "source": "com.nishatransport.app-main-64:/drawable/ic_edit.xml"
+    },
+    {
+        "merged": "com.nishatransport.app-release-63:/menu_bottom_nav_menu.xml.flat",
+        "source": "com.nishatransport.app-main-64:/menu/bottom_nav_menu.xml"
+    },
+    {
+        "merged": "com.nishatransport.app-release-63:/layout_item_load.xml.flat",
+        "source": "com.nishatransport.app-main-64:/layout/item_load.xml"
+    },
+    {
+        "merged": "com.nishatransport.app-release-63:/layout_fragment_dashboard.xml.flat",
+        "source": "com.nishatransport.app-main-64:/layout/fragment_dashboard.xml"
+    },
+    {
+        "merged": "com.nishatransport.app-release-63:/drawable_ic_dashboard.xml.flat",
+        "source": "com.nishatransport.app-main-64:/drawable/ic_dashboard.xml"
+    },
+    {
+        "merged": "com.nishatransport.app-release-63:/color_bottom_nav_color.xml.flat",
+        "source": "com.nishatransport.app-main-64:/color/bottom_nav_color.xml"
+    },
+    {
+        "merged": "com.nishatransport.app-release-63:/drawable_ic_calendar.xml.flat",
+        "source": "com.nishatransport.app-main-64:/drawable/ic_calendar.xml"
+    },
+    {
+        "merged": "com.nishatransport.app-release-63:/layout_fragment_backup.xml.flat",
+        "source": "com.nishatransport.app-main-64:/layout/fragment_backup.xml"
+    },
+    {
+        "merged": "com.nishatransport.app-release-63:/xml_data_extraction_rules.xml.flat",
+        "source": "com.nishatransport.app-main-64:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.nishatransport.app-release-63:/xml_backup_rules.xml.flat",
+        "source": "com.nishatransport.app-main-64:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.nishatransport.app-release-63:/drawable_ic_backup.xml.flat",
+        "source": "com.nishatransport.app-main-64:/drawable/ic_backup.xml"
+    },
+    {
+        "merged": "com.nishatransport.app-release-63:/drawable_ic_analytics.xml.flat",
+        "source": "com.nishatransport.app-main-64:/drawable/ic_analytics.xml"
+    },
+    {
+        "merged": "com.nishatransport.app-release-63:/drawable_ic_add.xml.flat",
+        "source": "com.nishatransport.app-main-64:/drawable/ic_add.xml"
+    },
+    {
+        "merged": "com.nishatransport.app-release-63:/layout_activity_add_load.xml.flat",
+        "source": "com.nishatransport.app-main-64:/layout/activity_add_load.xml"
+    }
+]

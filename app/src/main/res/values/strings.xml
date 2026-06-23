@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Nisha Transport</string>
+
+    <!-- Navigation -->
+    <string name="nav_dashboard">Dashboard</string>
+    <string name="nav_loads">Loads</string>
+    <string name="nav_analytics">Analytics</string>
+    <string name="nav_reports">Reports</string>
+    <string name="nav_backup">Backup</string>
+
+    <!-- Dashboard -->
+    <string name="today_revenue">Today\'s Revenue</string>
+    <string name="today_profit">Today\'s Profit</string>
+    <string name="month_revenue">This Month Revenue</string>
+    <string name="month_profit">This Month Profit</string>
+    <string name="year_profit">This Year Profit</string>
+    <string name="total_loads">Total Loads</string>
+    <string name="recent_loads">Recent Loads</string>
+    <string name="no_recent_loads">No loads added yet.\nTap + to add your first load.</string>
+    <string name="add_load">Add Load</string>
+    <string name="view_reports">View Reports</string>
+    <string name="export_data">Export Data</string>
+
+    <!-- Add Load -->
+    <string name="date">Date</string>
+    <string name="from_location">From Location *</string>
+    <string name="to_location">To Location *</string>
+    <string name="vehicle_number">Vehicle Number (optional)</string>
+    <string name="notes">Notes (optional)</string>
+    <string name="load_price">Load Price (₹) *</string>
+    <string name="loading_charge">Loading Charges (₹)</string>
+    <string name="diesel_cost">Diesel Cost (₹)</string>
+    <string name="police_expense">Police Expense (₹)</string>
+    <string name="toll_fee">Tollgate Fee (₹)</string>
+    <string name="driver_charge">Driver Charge (₹)</string>
+    <string name="unloading_charge">Unloading Cost (₹)</string>
+    <string name="other_expense">Other Expenses (₹)</string>
+    <string name="total_expense">Total Expense</string>
+    <string name="net_profit">Net Profit</string>
+    <string name="save_load">Save Load</string>
+    <string name="pick_date">Pick Date</string>
+
+    <!-- Load History -->
+    <string name="search_loads">Search by location, vehicle…</string>
+    <string name="filter_all">All</string>
+    <string name="filter_this_month">This Month</string>
+    <string name="filter_this_year">This Year</string>
+    <string name="filter_pick_month">Pick Month</string>
+    <string name="no_loads_found">No loads found.\nTry a different filter.</string>
+
+    <!-- Analytics -->
+    <string name="monthly_analysis">Monthly Analysis</string>
+    <string name="yearly_analysis">Yearly Analysis</string>
+    <string name="revenue_trend">Revenue Trend</string>
+    <string name="expense_trend">Expense Trend</string>
+    <string name="profit_trend">Profit Trend</string>
+    <string name="monthly_comparison">Monthly Comparison</string>
+    <string name="apply_filter">Apply Filter</string>
+
+    <!-- Reports -->
+    <string name="export_pdf">Export PDF</string>
+    <string name="export_excel">Export Excel</string>
+    <string name="monthly_report">Monthly Report</string>
+    <string name="yearly_report">Yearly Report</string>
+    <string name="date_range_report">Date Range</string>
+    <string name="all_time_report">All Time</string>
+
+    <!-- Backup -->
+    <string name="backup_restore">Backup &amp; Restore</string>
+    <string name="sign_in_google">Sign in with Google</string>
+    <string name="backup_now">Backup Now</string>
+    <string name="view_backups">View &amp; Restore Backups</string>
+    <string name="auto_backup">Auto Backup</string>
+    <string name="backup_frequency">Backup Frequency</string>
+    <string name="daily">Daily</string>
+    <string name="weekly">Weekly</string>
+    <string name="manual_only">Manual Only</string>
+    <string name="last_backup">Last backup: Never</string>
+    <string name="backup_status">No backup found</string>
+
+    <!-- Currency -->
+    <string name="currency_symbol">₹</string>
+    <string name="zero_amount">₹0</string>
+
+    <!-- Common -->
+    <string name="cancel">Cancel</string>
+    <string name="delete">Delete</string>
+    <string name="edit">Edit</string>
+    <string name="save">Save</string>
+    <string name="ok">OK</string>
+    <string name="revenue">Revenue</string>
+    <string name="expense">Expense</string>
+    <string name="profit">Profit</string>
+    <string name="loads">Loads</string>
+    <string name="dark_mode">Dark Mode</string>
+</resources>

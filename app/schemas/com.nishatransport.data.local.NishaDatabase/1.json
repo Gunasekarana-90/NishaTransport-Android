@@ -1,0 +1,136 @@
+{
+  "formatVersion": 1,
+  "database": {
+    "version": 1,
+    "identityHash": "e5605b02f6fd806a099238d768a9b0df",
+    "entities": [
+      {
+        "tableName": "loads",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `date` INTEGER NOT NULL, `fromLocation` TEXT NOT NULL, `toLocation` TEXT NOT NULL, `vehicleNumber` TEXT NOT NULL, `notes` TEXT NOT NULL, `loadPrice` REAL NOT NULL, `loadingCharge` REAL NOT NULL, `dieselCost` REAL NOT NULL, `policeExpense` REAL NOT NULL, `tollFee` REAL NOT NULL, `driverCharge` REAL NOT NULL, `unloadingCharge` REAL NOT NULL, `otherExpense` REAL NOT NULL, `totalExpense` REAL NOT NULL, `profit` REAL NOT NULL, `createdAt` INTEGER NOT NULL, `updatedAt` INTEGER NOT NULL)",
+        "fields": [
+          {
+            "fieldPath": "id",
+            "columnName": "id",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "date",
+            "columnName": "date",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "fromLocation",
+            "columnName": "fromLocation",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "toLocation",
+            "columnName": "toLocation",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "vehicleNumber",
+            "columnName": "vehicleNumber",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "notes",
+            "columnName": "notes",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "loadPrice",
+            "columnName": "loadPrice",
+            "affinity": "REAL",
+            "notNull": true
+          },
+          {
+            "fieldPath": "loadingCharge",
+            "columnName": "loadingCharge",
+            "affinity": "REAL",
+            "notNull": true
+          },
+          {
+            "fieldPath": "dieselCost",
+            "columnName": "dieselCost",
+            "affinity": "REAL",
+            "notNull": true
+          },
+          {
+            "fieldPath": "policeExpense",
+            "columnName": "policeExpense",
+            "affinity": "REAL",
+            "notNull": true
+          },
+          {
+            "fieldPath": "tollFee",
+            "columnName": "tollFee",
+            "affinity": "REAL",
+            "notNull": true
+          },
+          {
+            "fieldPath": "driverCharge",
+            "columnName": "driverCharge",
+            "affinity": "REAL",
+            "notNull": true
+          },
+          {
+            "fieldPath": "unloadingCharge",
+            "columnName": "unloadingCharge",
+            "affinity": "REAL",
+            "notNull": true
+          },
+          {
+            "fieldPath": "otherExpense",
+            "columnName": "otherExpense",
+            "affinity": "REAL",
+            "notNull": true
+          },
+          {
+            "fieldPath": "totalExpense",
+            "columnName": "totalExpense",
+            "affinity": "REAL",
+            "notNull": true
+          },
+          {
+            "fieldPath": "profit",
+            "columnName": "profit",
+            "affinity": "REAL",
+            "notNull": true
+          },
+          {
+            "fieldPath": "createdAt",
+            "columnName": "createdAt",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "updatedAt",
+            "columnName": "updatedAt",
+            "affinity": "INTEGER",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": true,
+          "columnNames": [
+            "id"
+          ]
+        },
+        "indices": [],
+        "foreignKeys": []
+      }
+    ],
+    "views": [],
+    "setupQueries": [
+      "CREATE TABLE IF NOT EXISTS room_master_table (id INTEGER PRIMARY KEY,identity_hash TEXT)",
+      "INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, 'e5605b02f6fd806a099238d768a9b0df')"
+    ]
+  }
+}
